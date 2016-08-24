@@ -1,0 +1,34 @@
+section.about{
+	background-color: #e0e0eb;
+/*	background-color: #f8f8f8;*/ 
+	padding: 100px 0;
+	border-bottom: 10px; 
+	border-color: black;
+	height:100vh; /*To make the section full screen*/
+}
+
+/*section.profile{
+
+}*/
+
+section.experience{
+	padding: 100px 0;
+	height:100vh; /*To make the section full screen*/
+}
+
+/*
+section.contact{
+	background-color: blue; 
+	padding: 100px 0;
+	height: 100vh; 
+}
+*/
+
+#footer {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  padding: 15px 20px;
+  background: #e0e0eb; 
+  border-top: 5px solid white !important;
+ }

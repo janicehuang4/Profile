@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Janice Huang</title>
+		
+
+		<link type = "text/css" rel = "stylesheet" href = "style\additional.css">
+		<link type = "text/css" rel = "stylesheet" href = "style\bootstrapSpacelab.css">
+		<link type = "text/css" rel = "stylesheet" href = "style\bootstrap-3.3.7-dist\css\bootstrap.css">
+		<link type = "text/css" rel = "stylesheet" href = "style\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+	
+	</head>
+	<body>
+		<div class = "row">
+			<div class = "col-md-offsett-1 col-md-7">	
+				<div class = "menu">			
+					<nav class = "navbar navbar-default navbar-fixed-top" role = "navigation">	
+						<div class = "navbar-header">
+							<div class = "navbar-collapse collapse" id = "navbar-main">
+							<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#ss-navbar-collapse">
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+							</button> 
+							<a class = "navbar-brand" href="#"> Janice Huang </a>
+							<ul id = "ss-tabs" class="nav navbar-nav">
+								<li class = "active"><a href = "#about"> Home </a></li>
+								<li><a href = "#experience"> Experience </a></li>
+							</ul> 
+						</div> 
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<section class = "about">
+			<section class = "col-lg-8 col-md-7 col-sm-6">
+				<h1> Janice Huang </h1>
+				<p>
+					I recently graduated from the Pennsylvania State University with a bachelor degree in computer science. 
+					Currently, I'm working at Booz | Allen | Hamilton as a software engineer. 
+				</p>
+			</section>
+			<section class = "col-lg-4 col-md-5 col-sm-6">				
+			</section>
+		</section>
+
+		<section class = "experience">
+			<h1> section 2 </h1>
+		</section>
+		<section>
+		</section>
+
+        <div id="footer">
+			Copyright &copy; Janice Huang 2016
+        </div>
+		
+		<script src = "..\bootstrap-3.3.7-dist\js\boostrap.min.js""></script>
+		<script src = "C:\Users\586726\Desktop\Practices\Web Dev\jquery-3.1.0.js"></script>
+		<script>
+			"use strict"; 
+			var $liQuery = $("#ss-tabs > li"); 
+			$liQuery.click(function(){
+				$liQuery.removeClass("active"); //when you click off Home tab, make it inactive
+				$(this).addClass("active"); //add active class to new tab
+			});
+
+			$(document).ready(function(){
+				var menu = $('.menu'); 
+				var origOffsetY = menu.offset().top; 
+
+				function scroll(){
+					if($(window).scrollTop() >= origOffsetY){
+						$('.menu').addClass('sticky');
+						$('.content').addClass('menu-padding'); 
+					}
+					else{
+						$('.menu').removeClass('sticky');
+						$('.content').removeClass('menu-padding'); 
+					}
+				}
+				document.onscroll = scroll; 
+			});
+		</script>
+	</body>
+</html>
+
