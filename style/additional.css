@@ -31,4 +31,12 @@ section.contact{
   padding: 15px 20px;
   background: #e0e0eb; 
   border-top: 5px solid white !important;
+  text-align: center;
  }
+
+.boxed {
+  border: 1px solid green;
+  position: relative;
+  height: 25%;
+  width: 25%; 
+}
