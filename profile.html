@@ -7,8 +7,9 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Janice Huang</title>
         <link href = "img\favicon.ico" rel = "favicon" type = "image/x-icon"/>
+        <title>Janice Huang</title>
+        
 
         <link href = "style/css/bootstrap.css" rel="stylesheet">
         <link href = "style/css/stylish-portfolio.css" rel="stylesheet">
@@ -18,33 +19,36 @@
 
     <body>
         <!-- Navigation -->
-        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-                <li class="sidebar-brand">
-                    <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-                </li>
-                <li>
-                    <a href="#top" onclick=$("#menu-close").click();>About</a>
-                </li>
-                <li>
-                    <a href="#skills" onclick=$("#menu-close").click();>Skills</a>
-                </li>
-                <li>
-                    <a href="#experience" onclick=$("#menu-close").click();>Experience</a>
-                </li>
-            </ul>
-        </nav>
+        <div class = "menu">
+            <nav class = "navbar navbar-default navbar-fixed-top" role = "navigation">  
+                <div class = "navbar-header">
+                    <div class = "navbar-collapse collapse" id = "navbar-main">
+                        <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#ss-navbar-collapse">
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                        </button> 
+                        <a class = "navbar-brand" href="#"> Janice Huang </a>
+                        <ul id = "ss-tabs" class="nav navbar-nav">
+                            <li class = "active"><a href = "#top"> About </a></li>
+                            <li><a href = "#skills"> Skills </a></li>
+                            <li><a href = "#experience"> Experience </a></li>
+                        </ul> 
+                    </div> 
+                </div>
+            </nav>
+        </div>
+
+
 
         <!-- Header -->
         <header id="top" class="header">
             <div class="text-vertical-center">
-                <div class = "col-md-8">
-                <!-- <div class="col-lg-8 col-md-7 col-sm-6"> -->
-                    <h1>Janice Huang</h1>
-                    <h3>Free Bootstrap Themes &amp; Templates</h3>
-                    <br>
+<!--                 <div class = "col-md-8"> -->
+                <div class="col-lg-8 col-md-7 col-sm-6">
+                    <h1><strong>Janice Huang</strong></h2>
+                    <p style = "size: 50px;">I'm a recent graduate from Penn State University with a degree in computer science. Currently I work at Booz|Allen|Hamilton as a software engineer.</p>
+                     <br>
                     
                 </div>
             </div>
@@ -55,7 +59,6 @@
 
 
         <!-- Skills -->
-        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <section id="skills" class="skills bg-primary">
             <div class="container">
                 <div class="row text-center">
@@ -65,56 +68,50 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
                                 <div class="skills-item">
-                                    <span class="fa-stack fa-4x"> <!-- To stack font awesome icons -->
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                                </span>
-                                    <h4>
-                                        <strong>skills Name</strong>
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <a href="#" class="btn btn-light">Learn More</a>
+                                    <span class="fa-stack fa-4x"> <!-- Allows you to stack font awesome icons -->
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linux fa-stack-1x text-primary"></i>
+                                    </span>
+                                    <h4> Skill Name </h4>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="skills-item">
                                     <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                                </span>
-                                    <h4>
-                                        <strong>skills Name</strong>
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <a href="#" class="btn btn-light">Learn More</a>
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-database fa-stack-1x text-primary"></i>
+                                    </span>
+                                    <h4> Skill Name </h4>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="skills-item">
                                     <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                                </span>
-                                    <h4>
-                                        <strong>skills Name</strong>
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <a href="#" class="btn btn-light">Learn More</a>
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-html5 fa-stack-1x text-primary"></i>
+                                    </span>
+                                    <h4> Skill Name </h4>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="skills-item">
                                     <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                                </span>
-                                    <h4>
-                                        <strong>skills Name</strong>
-                                    </h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <a href="#" class="btn btn-light">Learn More</a>
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-css3 fa-stack-1x text-primary"></i>
+                                    </span>
+                                    <h4> Skill Name </h4>
                                 </div>
                             </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="skills-item">
+                                    <img src = "img/javaLogo.png" height = "50" witdth = "50">
+                                    <span class = "fa-stack fa-4x">
+                                        <i class = "fa fa-circle fa-stack-2x"></i>
+                                    </span>
+
+                                    <h4> Skill Name </h4>
+                                </div>
+                            </div>                            
                         </div>
                         <!-- /.row (nested) -->
                     </div>
@@ -126,6 +123,7 @@
         </section>
 
         <!-- Experience -->
+        <section id = "experience" class = "experience">
             <div id = "myCarousel" class = "carousel slide" data-ride = "carousel">
                 <ol class = "carousel-indicators">
                     <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
@@ -160,6 +158,7 @@
                         <span class="sr-only">Next</span>
                     </a>
             </div>
+        </section>
 
 
         <br>
@@ -179,9 +178,9 @@
                         </ul>
                         <br>
                         <ul class="list-inline">
-<!--                             <li>
-                                <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                            </li> -->
+                            <li>
+                                <a href = "https://www.facebook.com/janice.huang6" target = "_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
                             <li>
                                 <a href="https://github.com/janicehuang4" target = "_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
                             </li>
@@ -203,5 +202,3 @@
     </body>
 
 </html>
-
-"There's no way I can ask you to fight for us. "
