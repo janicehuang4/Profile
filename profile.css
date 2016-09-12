@@ -263,8 +263,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../../font-awesome/glyphicons-halflings-regular.eot');
-  src: url('../../font-awesome/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../font-awesome/glyphicons-halflings-regular.woff2') format('woff2'), url('../../font-awesome/glyphicons-halflings-regular.woff') format('woff'), url('../font-awesome/glyphicons-halflings-regular.ttf') format('truetype'), url('../font-awesome/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('font-awesome/glyphicons-halflings-regular.eot');
+  src: url('font-awesome/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('font-awesome/glyphicons-halflings-regular.woff2') format('woff2'), url('font-awesome/glyphicons-halflings-regular.woff') format('woff'), url('font-awesome/glyphicons-halflings-regular.ttf') format('truetype'), url('font-awesome/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -1372,8 +1372,18 @@ a.text-danger:focus {
   color: #843534;
 }
 .bg-primary {
-  color: #fff;
-  background-color: #337ab7;
+/*  color: #fff;
+  background-color: #337ab7;  
+  background: #337ab7 url(img/datrini.png) no-repeat;
+  background-position: bottom-right; 
+  background: linear-gradient(0deg, rgba(2,173,231,0.5), rgba(2,173,231,0.5)), url(img/datrini.png) no-repeat;
+    background: url(img/eevee.jpg) no-repeat center center scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-position: bottom right;
+    background-size: 10%;
+    -o-background-size: contain;*/
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -6923,9 +6933,9 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
-    background-color: #4594FF; 
-    background: url(../../img/eevee.jpg) no-repeat center center scroll;
+    height: 80%;
+/*    background-color: ; */
+    background:#4594FF url(img/eevee.jpg) no-repeat center center scroll;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
@@ -6935,8 +6945,6 @@ hr.small {
 }
 
 img.profile-pic{
-/*    padding-top: 100px;
-    padding-right: 250px; */
     border-radius: 15px 15px 15px 15px;
     margin-right: 100px;
     margin-top: 40px;
@@ -6947,22 +6955,20 @@ img.profile-pic{
     display: table;
     position: relative;
     width: 100%;
-    height: 120%;
+    height: 80%;
+    background: #337ab7 url(img/datrini.png) no-repeat ;/*center center scroll*/
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-position: bottom right;
+    background-size: 10%;
+    -o-background-size: contain;  
 }
 
 .skills-item {
     margin-bottom: 30px;
 }
 
-img.skillImage{
-  height: 50;
-  width: 50; 
-}
-
-/*img.skills{ 
-    width: 50px;
-    height: 50px;
-}*/
 
 
 .experience{
@@ -6970,6 +6976,13 @@ img.skillImage{
     display: table;
     position: relative;
     width: 100%;
-    height: 150%;
+    height: 80%;
+    background: url(img/aron.png) no-repeat ;/*center center scroll*/
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-position: bottom right;
+    background-size: 10%;
+    -o-background-size: contain;  
 }
 
