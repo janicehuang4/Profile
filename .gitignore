@@ -2,8 +2,13 @@ LICENSE
 bootstrap.min.js
 bootstrap.min.css
 *.txt
-Documents/References
-Documents/Resume_CL
+Documents/References/
+!Documents/References/References.zip
+Documents/Resume_CL/
+!Documents/Resume_CL/Resume.pdf
 Job-Related
 font-awesome/font-awesome-4.6.1/Font Awesome Cheatsheet.pdf
 font-awesome/font-awesome-4.6.1/HELP-US-OUT.txt
+
+
+
