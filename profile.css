@@ -1371,20 +1371,7 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
-.bg-primary {
-/*  color: #fff;
-  background-color: #337ab7;  
-  background: #337ab7 url(img/datrini.png) no-repeat;
-  background-position: bottom-right; 
-  background: linear-gradient(0deg, rgba(2,173,231,0.5), rgba(2,173,231,0.5)), url(img/datrini.png) no-repeat;
-    background: url(img/eevee.jpg) no-repeat center center scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    background-position: bottom right;
-    background-size: 10%;
-    -o-background-size: contain;*/
-}
+
 a.bg-primary:hover,
 a.bg-primary:focus {
   background-color: #286090;
