@@ -6934,14 +6934,23 @@ hr.small {
     position: relative;
     width: 100%;
     height: 80%;
-/*    background:url(img/beach2.jpg) no-repeat center center scroll, url(img/eevee.jpg) no-repeat center center scroll;   */
-    background:#4594FF url(img/eevee.jpg) no-repeat center center scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    background-position: bottom center;
-    background-size: 5%;
-    -o-background-size: contain;
+    
+    background-image: url(img/eevee.jpg), url(img/beach.jpg); 
+    background-size: 5%, 100%; 
+    background-repeat: no-repeat, no-repeat; 
+    background-position: bottom center, top; 
+    -webkit-background-size: bottom center, top;
+    -moz-background-size: bottom center, top;
+    -o-background-size: bottom center, top;
+    background-size: bottom center, top;
+}
+
+h1.headerH1{
+  text-decoration-color: white; 
+}
+p.headerText{
+  font-size: 25px; 
+  
 }
 
 img.profile-pic{
@@ -6956,13 +6965,13 @@ img.profile-pic{
     position: relative;
     width: 100%;
     height: 80%;
-    background: #337ab7 url(img/datrini.png) no-repeat ;/*center center scroll*/
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    background-position: bottom center;
-    background-size: 5%;
-    -o-background-size: contain;  
+    background: #337ab7 url(img/datrini.png) no-repeat;
+    background-size: 5%; 
+    background-position: bottom center; 
+    -webkit-background-size: bottom center;
+    -moz-background-size: bottom center;
+    -o-background-size: bottom center;
+    background-size: bottom center;
 }
 
 .skills-item {
@@ -6977,13 +6986,6 @@ img.profile-pic{
     position: relative;
     width: 100%;
     height: 80%;
-    background: url(img/aron.png) no-repeat ;/*center center scroll*/
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    background-position: bottom right;
-    background-size: 10%;
-    -o-background-size: contain;  
 }
 
 img.aron{
