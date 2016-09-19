@@ -260,6 +260,12 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
+@font-face{
+  font-family:'Gotham';
+  src: url('font-awesome/gotham/gotham-light.otf');
+}
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 
@@ -6921,6 +6927,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 80%;
+    font-family: Gotham;
     
     background-image: url(img/eevee.jpg), url(img/beach.jpg); 
     background-size: 5%, 100%; 
