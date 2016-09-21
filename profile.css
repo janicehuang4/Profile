@@ -6922,21 +6922,20 @@ hr.small {
 
 
 /* Header */
-.header {
+.header{
     display: table;
     position: relative;
     width: 100%;
     height: 80%;
-    font-family: Gotham;
     
-    background-image: url(img/eevee.jpg), url(img/beach.jpg); 
-    background-size: 5%, 100%; 
-    background-repeat: no-repeat, no-repeat; 
-    background-position: bottom center, top; 
-    -webkit-background-size: bottom center, top;
-    -moz-background-size: bottom center, top;
-    -o-background-size: bottom center, top;
-    background-size: bottom center, top;
+    background-image: url(img/EeveeTransparent.png), url(img/beach.jpg); 
+    background-size: 5%, cover; 
+    background-repeat: no-repeat, repeat;
+    background-position: bottom right, top; 
+    -webkit-background-size: bottom right, top;
+    -moz-background-size: bottom right, top;
+    -o-background-size: bottom right, top;
+    background-size: bottom right, top;
 }
 
 h1.headerH1{
@@ -6961,11 +6960,11 @@ img.profile-pic{
     height: 80%;
     background: #337ab7 url(img/datrini.png) no-repeat;
     background-size: 5%; 
-    background-position: bottom center; 
-    -webkit-background-size: bottom center;
-    -moz-background-size: bottom center;
-    -o-background-size: bottom center;
-    background-size: bottom center;
+    background-position: bottom right; 
+    -webkit-background-size: bottom right;
+    -moz-background-size: bottom right;
+    -o-background-size: bottom right;
+    background-size: bottom right;
 }
 
 .skills-item {
@@ -6983,11 +6982,25 @@ img.profile-pic{
 }
 
 img.aron{
-  height: 10px; 
-  width: 10px; 
-  padding-bottom: 10%;  
+  height: 20px; 
+  width: 20px; 
+  position: absolute;
+  bottom: 0; 
+  right: 0; 
 }
 
 li.jobDescription{
   text-align: left; 
+}
+
+/*footer*/
+footer{
+    background-image: url(img/004Charmander_OS_anime_2.png); 
+    background-size: 5%; 
+    background-repeat: no-repeat; 
+    background-position: bottom right; 
+    -webkit-background-size: bottom right;
+    -moz-background-size: bottom right;
+    -o-background-size: bottom right;
+    background-size: bottom right;
 }
