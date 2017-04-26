@@ -1,6 +1,6 @@
 # Profile
 
-git works in zabun terminal 
+changing email test for git
 
 
 
